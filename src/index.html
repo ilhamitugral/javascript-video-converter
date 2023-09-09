@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Dönüştürücü</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 id="page-title" class="title"></h1>
+        <p id="page-description" class="description"></p>
+        <div class="buttons">
+            <input type="file" id="select-file" accept=""/>
+            <button class="input-style" id="btn-file" onclick="chooseFile();">Seçilmedi</button>
+            <span>'den</span>
+            <select id="file-types" class="input-style"></select>
+            <span>'e</span>
+            <button class="input-style" id="btn-convert" onclick="convert()">Dönüştür</button>
+        </div>
+        <span id="page-copyright" class="copyright">
+            &copy; <span id="copyright-value">İlhami Tuğral</span>
+        </span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

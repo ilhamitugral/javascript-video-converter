@@ -1,0 +1,13 @@
+{
+    "title": "Video Dönüştürücü",
+    "description": "Müzik/Video dönüştürmek hiç bu kadar kolay olmamıştı.",
+    "copyright": "İlhami Tuğral",
+    "fileTypes": [
+        {"mp4": "video/mp4"},
+        {"mp3": "audio/mpeg"},
+        {"avi": "video/x-msvideo"},
+        {"wav": "audio/wav"},
+        {"3gp": "audio/3gpp"},
+        {"aac": "audio/aac"}
+    ]
+}
